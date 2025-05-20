@@ -1,1 +1,14 @@
+age = input("How old are you?")
+citizenship = input("Are you a citizen?")
+years = ("How many years have you lived in the United States")
+if (age >=35 and citizenship == "yes" and years>=14):
+  for i in range 10:
+    print("You are eligible to be president")
+else:
+  if (age<35):
+    print("You must be at least 35 years old to run for president")
+  if (citizenship != "yes"):
+    print("you must be a U.S citizen to run for president")
+  if (years<14):
+    print("you must have lived in the U.S for at leats 14 years to run for president")
 
